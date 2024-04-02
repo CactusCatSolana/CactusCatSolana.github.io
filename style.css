@@ -1,35 +1,191 @@
 body {
-  background:#212121;
+  background: #2E6021;
 }
-.a {
-	width:460px; 
-	height:276px;
-	overflow:hidden;
-	background-image:url(https://static.guim.co.uk/sys-images/MONEY/Pix/pictures/2013/1/11/1357903674323/Orlando-the-ginger-cat-008.jpg);
-  position:absolute;
-  margin:auto;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-  box-shadow:0 0 10px 1px #000
-}		
-.b {
-	width:0; 
-	height:276px;
-	overflow:hidden;
-	margin-left:-50px;
-	transform:skew(-20deg);
-	transition:width 1s ease;
-}		
-.a:hover .b {
-	width:574px;
+
+.bbold {
+  font-weight: bold;
+  text-decoration: underline;
 }
-.c {
-	width:574px; 
-	height:276px;
-	transform:skew(20deg);
-	margin-left:-64px;
-	background-image:url(https://static.guim.co.uk/sys-images/Guardian/About/General/2013/1/9/1357733496816/RUSSIA-ANIMALS-PETS-CAT-010.jpg);
-	background-position:114px 0;
+
+
+
+.nav.my-style li a {
+  color: #ef7575;
+  font-family: Gloria Hallelujah;
+  font-size: 110%;
+  
+}
+
+.dank {
+  font-family: Gloria Hallelujah;
+ }
+
+p {
+  font-family: Ubuntu;
+}
+
+#catworld {
+  font-size: 600%;
+}
+
+.carhead {
+  font-family: Gloria Hallelujah;
+  font-size: 300%;
+}
+
+.car {
+  font-family: Gloria Hallelujah;
+  font-weight: bold;
+  font-size: 200%;
+}
+
+
+.poo {
+  position: relative;
+  left: 300px;
+}
+
+#fangs {
+  border-radius: 10%;
+  margin: 0 auto;
+ 
+  
+}
+
+#catZone {
+  color: white;
+}
+
+h1, h2 {
+  color: #ef7575;
+}
+
+#catZone {
+  color: #ef7575;
+  font-family: Baloo Bhaina;
+  font-size: 300%;
+}
+
+.catopic {
+  font-family: Baloo Bhaina;
+}
+
+p {
+  color: #ef7575;
+  font-size: 20px;
+}
+
+h4 {
+  color: #ef7575;
+}
+
+#video {
+ border-radius: 20px;
+}
+
+#alien {
+  border-radius: 20px;
+}
+
+#cafe {
+  border-radius: 20px;
+}
+
+#facts {
+  border-radius: 20px;
+}
+
+#hipster {
+  border-radius: 20px;
+}
+
+#thug {
+  border-radius: 20px;
+}
+
+.blob {
+  padding: 20px;
+}
+
+
+.grid {
+  width: 600px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: #ef7575;
+  padding: 10px 50px 50px 50px;
+  border-radius: 50px;
+  border: 2px solid #ef7575;
+  box-shadow: 10px 15px 5px #cbcbcb;
+}
+
+.grid h1 {
+  font-family: Gloria Hallelujah;
+  font-weight: bold;
+  background-color: #ffe3e3;
+  font-size: 60px;
+  text-align: center;
+  color: #ef7575;
+  padding: 2px 0px;
+  border-radius: 50px;
+}
+
+.grid #question {
+  font-family: sans-serif;
+  font-size: 30px;
+  color: #5e6772;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+  background-color: #ffe3e3; 
+  width: 205px;
+  font-size: 20px;
+  color: #fff;
+  border: 1px solid #ffe3e3;
+  border-radius: 50px;
+  margin: 10px 40px 10px 0px;
+  padding: 10px 10px;
+}
+
+#progress {
+  color: #ffe3e3;
+  font-size: 18px;
+  
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+  cursor: pointer;
+  background-color: #ef7575;
+  transition: background-color 0.5s ease-out; 
+ 
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+  outline: 0;
+}
+
+#score {
+  color: #57636e;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#choice0, #choice1, #choice2, #choice3 {
+  color: black;
+}
+
+
+
+
+#question {
+  color: #ffe3e3;
+}
+
+#end {
+  text-align: center;
 }
